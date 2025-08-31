@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.myform{
+    background: red;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 390px;
+    box-shadow: 3px 2px rgba(0,0,0,0.5);
+}
+p{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+#myh3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    display: block;
+}
+#submit{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    background: cyan;
+    border-radius: 10px;
+    color: white;
+}
+#submit:hover{
+    background: hsl(180, 100%, 30%);
+    color: white;
+}
