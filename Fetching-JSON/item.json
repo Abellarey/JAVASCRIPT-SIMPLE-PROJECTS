@@ -1,0 +1,12 @@
+[ 
+    {
+        "name": "expresso",
+        "price": "P300",
+        "image": "images/1astra.jpg"
+    },
+    {
+       "name": "vanila",
+        "price": "P400",
+        "image": "images/1.jpg" 
+    }
+]
