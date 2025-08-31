@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    
+     <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="cart-icon">
+            <i class='bx bx-cart icon-cart'></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+     <div class="cart">
+            <h1>Add To Cart</h1>
+             <div class="cart-content">
+                 <!--<div class="cart-box">
+                    <img src="vape1.jpg"class="cart-img">
+                    <div class="cart-detail">
+                        <h2>Vape 1</h2>
+                        <span class="cart-price">P500</span>
+                        <div class="cart-quantity">
+                            <button id="decrement">-</button>
+                            <span class="number">1</span>
+                            <button id="increment">+</button>
+                        </div>
+                    </div>
+                    <i class="ri-delete-bin-line cart-remove"></i>-->
+                </div>
+          
+            <div class="total">
+                <div class="total-title">Total</div>
+                    <div class="total-price">P0</div>            
+            </div>
+            <button class="btn-buy">Order Now</button>
+            <i class='bx bx-window-close'id="cart-close"></i>
+              </div>
+        </div>
+        
+    <main>
+        <h1 class="coffee-title">Our Coffee Products</h1>
+        <section id="product-list"class="cart-boxs">
+            <div class="product">
+                <img src="1.jpg" alt="">
+                <h2>Espresso</h2>
+                <p class="price">P300</p>
+                <button class="add-to-cart" data-product="Espresso" data-price="3.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="6.jpg" alt="">
+                <h2>Latte</h2>
+                <p class="price">P400</p>
+                <button class="add-to-cart" data-product="Latte" data-price="4.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="man.png" alt="">
+                <h2>Cappuccino</h2>
+                <p class="price">P450</p>
+                <button class="add-to-cart" data-product="Cappuccino" data-price="4.50">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="logo.png" alt="">
+                <h2>Americano</h2>
+                <p class="price">P350</p>
+                <button class="add-to-cart" data-product="Americano" data-price="3.50">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="kups.jpg" alt="">
+                <h2>Mocha</h2>
+                <p class="price">P500</p>
+                <button class="add-to-cart" data-product="Mocha" data-price="5.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="vapelogo.png" alt="">
+                <h2>Flat White</h2>
+                <p class="price">P475</p>
+                <button class="add-to-cart" data-product="Flat White" data-price="4.75">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="OIP.jpg" alt="">
+                <h2>Cold Brew</h2>
+                <p class="price">P425</p>
+                <button class="add-to-cart" data-product="Cold Brew" data-price="4.25">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="8.jpg" alt="">
+                <h2>Affogato</h2>
+                <p class="price">P550</p>
+                <button class="add-to-cart" data-product="Affogato" data-price="5.50">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
